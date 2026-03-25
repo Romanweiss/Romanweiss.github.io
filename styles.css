@@ -111,6 +111,19 @@ body {
   overflow: hidden;
 }
 
+.resume-page,
+.resume-page > *,
+.sidebar,
+.content,
+.timeline-body,
+.timeline-item,
+.contact-list li,
+.lang-list li,
+.info-list li,
+.split-grid > * {
+  min-width: 0;
+}
+
 .page-footer {
   max-width: 1480px;
   margin: 18px auto 0;
@@ -186,6 +199,7 @@ body {
   line-height: 1.04;
   text-align: center;
   letter-spacing: -0.01em;
+  overflow-wrap: break-word;
 }
 
 .identity-role {
@@ -238,6 +252,11 @@ body {
   gap: 12px;
   color: #f3f4f6;
   font-size: 15px;
+}
+
+.contact-list li span:last-child {
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .icon-box {
@@ -425,6 +444,7 @@ body {
   font-family: "Montserrat", "Segoe UI", sans-serif;
   font-size: 25px;
   line-height: 1.16;
+  overflow-wrap: break-word;
 }
 
 .company {
@@ -433,6 +453,7 @@ body {
   font-weight: 700;
   color: #59606b;
   letter-spacing: 0.01em;
+  overflow-wrap: anywhere;
 }
 
 .entry-head {
@@ -907,6 +928,202 @@ body {
 
   .cert-card h3 {
     font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    padding: 8px;
+  }
+
+  .top-controls {
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  .pdf-btn {
+    padding: 11px 16px;
+    font-size: 16px;
+  }
+
+  .pdf-btn svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .lang-switch {
+    padding: 5px;
+  }
+
+  .lang-btn {
+    min-width: 48px;
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+
+  .resume-page {
+    margin-top: 12px;
+    border-radius: 14px;
+  }
+
+  .sidebar {
+    padding: 24px 18px 22px;
+  }
+
+  .avatar-frame {
+    width: 178px;
+    height: 178px;
+    margin-bottom: 18px;
+  }
+
+  .identity {
+    margin-bottom: 28px;
+  }
+
+  .identity h1 {
+    font-size: 31px;
+    line-height: 1.07;
+  }
+
+  .identity-role {
+    margin-top: 12px;
+    font-size: 13px;
+    line-height: 1.42;
+    letter-spacing: 0.05em;
+  }
+
+  .side-section {
+    margin-top: 22px;
+  }
+
+  .side-section h2 {
+    margin-bottom: 14px;
+    font-size: 14px;
+  }
+
+  .contact-list li {
+    grid-template-columns: 42px 1fr;
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .icon-box {
+    width: 42px;
+    height: 42px;
+  }
+
+  .icon-box svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .lang-list span:first-child {
+    font-size: 17px;
+  }
+
+  .side-section p,
+  .info-list span:first-child,
+  .info-list span:last-child {
+    font-size: 14px;
+  }
+
+  .content {
+    padding: 18px 16px 22px;
+  }
+
+  .section-header {
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+
+  .section-line {
+    width: 40px;
+  }
+
+  .section-header h2 {
+    font-size: 21px;
+  }
+
+  .content p {
+    font-size: 18px;
+  }
+
+  .quote-box {
+    padding: 14px 16px;
+    border-radius: 0 14px 14px 0;
+  }
+
+  .timeline {
+    padding-left: 18px;
+  }
+
+  .timeline-item {
+    padding-left: 18px;
+    margin-bottom: 18px;
+  }
+
+  .timeline::before {
+    left: 6px;
+  }
+
+  .dot {
+    left: -1px;
+    width: 14px;
+    height: 14px;
+  }
+
+  .entry-head {
+    gap: 8px;
+  }
+
+  .timeline-body h3 {
+    font-size: 22px;
+  }
+
+  .company {
+    font-size: 17px;
+  }
+
+  .period {
+    font-size: 14px;
+    padding: 6px 8px;
+  }
+
+  .timeline-body ul li,
+  .entry-text,
+  .project-list li strong,
+  .project-list li span,
+  .project-list li p {
+    font-size: 17px;
+  }
+
+  .education-card {
+    padding: 16px;
+    box-shadow: 5px 5px 0 #0f1115;
+  }
+
+  .education-card h3 {
+    font-size: 28px;
+  }
+
+  .education-sub,
+  .education-point {
+    font-size: 18px;
+  }
+
+  .cert-card h3 {
+    font-size: 22px;
+  }
+
+  .page-footer {
+    margin-top: 12px;
+    gap: 10px;
+    font-size: 12px;
+  }
+
+  .footer-glyph {
+    width: 28px;
+    height: 28px;
   }
 }
 
