@@ -1,4 +1,4 @@
-# My_Resume
+# My Resume
 
 HTML resume page with PDF export support.
 
@@ -22,5 +22,5 @@ http://localhost:5500/index.html
 GitHub Pages:
 
 ```text
-https://romanweiss.github.io/My_Resume/
+https://romanweiss.github.io/
 ```
