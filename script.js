@@ -11,7 +11,7 @@ const baseTranslations = {
 const translations = {
   en: {
     text: {
-      pageTitle: "Roman Shcherbinin - Resume",
+      pageTitle: "Roman Shcherbinin | Resume",
       downloadPdf: "Download PDF",
       downloadPdfLabel: "Download PDF",
       profileAlt: "Photo of Roman Shcherbinin",
@@ -71,8 +71,9 @@ const translations = {
       edu2Subtitle: "(Finance and Credit)",
       additionalEducationHeading: "ADDITIONAL EDUCATION",
       cert1Org: "TOP Academy",
-      cert2Org: 'Specialist Training Center',
+      cert2Org: "Specialist Training Center",
       cert3Desc: "PYTHON, SQL, GIT, ALGORITHMS",
+      footerCreated: "Created in 2026",
     },
     html: {
       identityRole:
@@ -181,6 +182,7 @@ const translations = {
     attr: {
       downloadPdfLabel: "Download PDF",
       profileAlt: "Photo of Roman Shcherbinin",
+      footerGlyphAlt: "Site glyph",
     },
   },
 };

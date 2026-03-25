@@ -111,6 +111,26 @@ body {
   overflow: hidden;
 }
 
+.page-footer {
+  max-width: 1480px;
+  margin: 18px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #5f6672;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.footer-glyph {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  opacity: 0.9;
+}
+
 .sidebar {
   background: linear-gradient(165deg, #0d0f12 0%, #12151b 100%);
   color: #ececec;
@@ -806,6 +826,16 @@ body {
     border-radius: 16px;
   }
 
+  .page-footer {
+    margin-top: 14px;
+    font-size: 13px;
+  }
+
+  .footer-glyph {
+    width: 16px;
+    height: 16px;
+  }
+
   .sidebar {
     border-bottom: 1px solid rgba(231, 231, 231, 0.12);
   }
@@ -899,6 +929,10 @@ body {
   }
 
   .top-controls {
+    display: none !important;
+  }
+
+  .page-footer {
     display: none !important;
   }
 
