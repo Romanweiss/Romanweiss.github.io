@@ -42,7 +42,7 @@ const translations = {
         "Hands-on Data Engineering and Big Data internship focused on end-to-end project delivery:",
       allianceTitle: "Software Engineer / Data Specialist",
       allianceCompany: "LLC Alliance DV",
-      alliancePeriod: "Feb 2023 - Present",
+      alliancePeriod: "Feb 2023 - Mar 2026",
       tasksHeading: "RESPONSIBILITIES",
       achievementsHeading: "ACHIEVEMENTS",
       magtrakTitle:
